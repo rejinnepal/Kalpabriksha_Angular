@@ -10,6 +10,15 @@ import { UpdateRestoComponent } from './update-resto/update-resto.component';
 import { ListRestoComponent } from './list-resto/list-resto.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { FooterComponent } from './footer/footer.component';
+import { CbwcComponent } from './cbwc/cbwc.component';
+import { HomeComponent } from './home/home.component';
+import { HeadComponent } from './head/head.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +27,16 @@ import { RegisterComponent } from './register/register.component';
     UpdateRestoComponent,
     ListRestoComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    NavBarComponent,
+    AboutComponent,
+    ContactComponent,
+    GalleryComponent,
+    FaqsComponent,
+    FooterComponent,
+    CbwcComponent,
+    HomeComponent,
+    HeadComponent
   ],
   imports: [
     BrowserModule,
